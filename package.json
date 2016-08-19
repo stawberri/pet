@@ -6,8 +6,7 @@
     "petpet": "bin/petpet"
   },
   "scripts": {
-    "start": "node bin/petpet",
-    "test": "tape test/*.js"
+    "test": "node bin/petpet"
   },
   "repository": {
     "type": "git",
@@ -26,8 +25,5 @@
   "bugs": {
     "url": "https://github.com/stawberri/petpet/issues"
   },
-  "homepage": "https://github.com/stawberri/petpet#readme",
-  "devDependencies": {
-    "tape": "^4.6.0"
-  }
+  "homepage": "https://github.com/stawberri/petpet#readme"
 }
