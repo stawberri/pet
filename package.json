@@ -1,6 +1,6 @@
 {
   "name": "petpet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "catgirl petting cli",
   "bin": {
     "petpet": "bin/petpet"
