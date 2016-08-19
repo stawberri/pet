@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/stawberri/petpet#readme",
   "devDependencies": {
-    "mock-require": "^1.3.0",
     "tape": "^4.6.0"
   }
 }

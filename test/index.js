@@ -1,5 +1,4 @@
 const test = require('tape')
-const mock = require('mock-require')
 
 test('petpet is a function', t => {
   t.is(typeof require('../lib'), 'function', 'typeof check')
