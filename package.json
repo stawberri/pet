@@ -1,0 +1,34 @@
+{
+  "name": "petpet",
+  "version": "0.0.1",
+  "description": "catgirl petting cli",
+  "bin": {
+    "petpet": "bin/petpet"
+  },
+  "scripts": {
+    "start": "node bin/petpet",
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stawberri/petpet.git"
+  },
+  "keywords": [
+    "petting",
+    "pet",
+    "game",
+    "console",
+    "cli",
+    "catgirl"
+  ],
+  "author": "Pudding <aideen@aideen.pw> (https://aideen.pw/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stawberri/petpet/issues"
+  },
+  "homepage": "https://github.com/stawberri/petpet#readme",
+  "devDependencies": {
+    "mock-require": "^1.3.0",
+    "tape": "^4.6.0"
+  }
+}
