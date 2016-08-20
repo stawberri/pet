@@ -1,0 +1,17 @@
+{
+  "error": {
+    "number": 1,
+    "name": "ItSeemsThatNodeAccidentallyBlewUpException",
+    "message": "An error happened and petpet doesn't have an error message for it! You probably found a bug.\nIf you're not sure what to do, please report this error to %s.\n\n%s"
+  },
+  "corrupted-file": {
+    "number": 2,
+    "name": "SomethingWeirdHappenedToYourGameFileException",
+    "message": "Your petpet game file appears to be corrupted.\nPlease delete %s and try again."
+  },
+  "write-file-error": {
+    "number": 3,
+    "name": "YourDataFileIsRefusingToBeWrittenException",
+    "message": "I can't write to your game file for some reason!\nPlease take a look at %s and try again."
+  }
+}

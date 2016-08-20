@@ -1,2 +1,8 @@
 #!/usr/bin/env node
-require('../lib')()
+const error = require('../lib/error.js');
+process.on('uncaughtException', error);
+[
+  require('../package.json').version,
+  require('../lib/updater'),
+  require('../lib')
+].reduce((a, b) => Promise.resolve(a).then(b)).catch(error);
