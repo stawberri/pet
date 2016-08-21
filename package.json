@@ -2,6 +2,7 @@
   "name": "petpet",
   "version": "0.1.0",
   "description": "catgirl petting cli",
+  "preferGlobal": true,
   "bin": {
     "petpet": "bin/petpet"
   },
