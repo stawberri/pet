@@ -13,5 +13,15 @@
     "number": 3,
     "name": "YourDataFileIsRefusingToBeWrittenException",
     "message": "I can't write to your game file for some reason!\nPlease take a look at %s and try again."
+  },
+  "update-available": {
+    "number": 4,
+    "name": "OhLookThereIsANewVersionYouCanPlayException",
+    "message": "You're currently playing petpet version %s, but version %s is available!\nIf you installed petpet and npm normally, you can update by running %s.\nAlternatively, just run this command again to keep playing!\nYou won't get this error again until you decide to update."
+  },
+  "undefined": {
+    "number": 5,
+    "name": "ThereWasAnErrorButWeHaveNoIdeaWhatItWasException",
+    "message": "Something really weird happened. Something caused petpet to run its error handling code,\nbut didn't actually say what was wrong. This is probably a really serious bug!\nYou might want to report this error to %s.\n\n%s"
   }
 }

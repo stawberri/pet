@@ -7,7 +7,7 @@
     "petpet": "bin/petpet"
   },
   "scripts": {
-    "test": "node bin/petpet ; printf \"\\nnpm \\033[1;34mtest\\033[0m Exited with code $?\\n\""
+    "test": "node bin/petpet"
   },
   "repository": {
     "type": "git",
