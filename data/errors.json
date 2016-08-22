@@ -2,17 +2,17 @@
   "error": {
     "number": 1,
     "name": "ItSeemsThatNodeAccidentallyBlewUpException",
-    "message": "An error happened and petpet doesn't have an error message for it! You probably found a bug.\nIf you're not sure what to do, please report this error to %s.\n\n%s"
+    "message": "An error happened and petpet doesn't have an error message for it! You probably found a bug. If you're not sure how to fix this, please report this error to %s, along with a description of what you were doing.\n\n%s"
   },
   "corrupted-file": {
     "number": 2,
     "name": "SomethingWeirdHappenedToYourGameFileException",
-    "message": "Your petpet game file appears to be corrupted.\nPlease delete %s and try again."
+    "message": "Your petpet game file appears to be corrupted. Please delete %s and try again."
   },
   "write-file-error": {
     "number": 3,
     "name": "YourDataFileIsRefusingToBeWrittenException",
-    "message": "I can't write to your game file for some reason!\nPlease take a look at %s and try again."
+    "message": "I can't write to your game file for some reason! Please take a look at %s and try again."
   },
   "update-available": {
     "number": 4,
@@ -22,6 +22,6 @@
   "undefined": {
     "number": 5,
     "name": "ThereWasAnErrorButWeHaveNoIdeaWhatItWasException",
-    "message": "Something really weird happened. Something caused petpet to run its error handling code,\nbut didn't actually say what was wrong. This is probably a really serious bug!\nYou might want to report this error to %s.\n\n%s"
+    "message": "Something caused petpet to run its error handling code, but didn't actually say what was wrong. This is probably a really serious bug! If you're not sure how to fix this yourself, please report this error to %s, with a description of what you were doing.\n\n%s"
   }
 }
