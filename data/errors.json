@@ -17,7 +17,7 @@
   "update-available": {
     "number": 4,
     "name": "OhLookThereIsANewVersionYouCanPlayException",
-    "message": "You're currently playing petpet version %s, but version %s is available!\nIf you installed petpet and npm normally, you can update by running %s.\nAlternatively, just run this command again to keep playing!\nYou won't get this error again until you decide to update."
+    "message": "You're currently playing petpet version %s, but version %s is available! If you installed petpet and npm normally, you can update by reinstalling petpet with %s. If you don't want to update, just keep playing! You won't get this error again until you decide to update."
   },
   "undefined": {
     "number": 5,
