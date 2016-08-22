@@ -9,6 +9,9 @@
   "scripts": {
     "test": "node bin/petpet"
   },
+  "publishConfig": {
+    "tag": "updater"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stawberri/petpet.git"
