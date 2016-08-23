@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 let _ = require('../lib/_')
-_(
-  _._.version,
-  require('../lib/updater'),
-  require('../lib')
-)
+
+Promise
+  .resolve(_._.version)
+  .then(_`updater`)
+  .then(_())
+  .then(_`print`)
+  .catch(_.$)
