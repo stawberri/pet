@@ -23,5 +23,10 @@
     "number": 5,
     "name": "ThereWasAnErrorButWeHaveNoIdeaWhatItWasException",
     "message": "Something caused petpet to run its error handling code, but didn't actually say what was wrong. This is probably a really serious bug! If you're not sure how to fix this yourself, please report this error to %s, with a description of what you were doing.\n\n%s"
+  },
+  "old-data-file": {
+    "number": 6,
+    "name": "YouHaveAnOldDataFileThatCanBeDeletedException",
+    "message": "You have a file at %s. This was petpet's old game data file, but it isn't used anymore. If you weren't the one who created this file, please feel free to remove it! If you created this file yourself for a different purpose, this message shouldn't appear again."
   }
 }
