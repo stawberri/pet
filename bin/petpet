@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-let _ = require('../lib/_')
-
+const _ = require('../lib/_')
 Promise
   .resolve(_._.version)
   .then(_`updater`)
