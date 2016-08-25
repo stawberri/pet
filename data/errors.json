@@ -28,5 +28,10 @@
     "number": 6,
     "name": "YouHaveAnOldDataFileThatCanBeDeletedException",
     "message": "You have a file at %s. This was petpet's old game data file, but it isn't used anymore. If you weren't the one who created this file, please feel free to remove it! If you created this file yourself for a different purpose, this message shouldn't appear again."
+  },
+  "no-output": {
+    "number": 7,
+    "name": "ThereIsNoOutputToPrintException",
+    "message": "For some reason or another, the petpet command you ran doesn't have any output to show you. This is a bug, but probably isn't anything to worry about. If you would like, you can submit it as a quality-control type of issue."
   }
 }
