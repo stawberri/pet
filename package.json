@@ -9,6 +9,9 @@
   "scripts": {
     "test": "node bin/petpet"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stawberri/petpet.git"
