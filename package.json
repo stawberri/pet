@@ -1,6 +1,6 @@
 {
   "name": "pet",
-  "version": "0.2.7",
+  "version": "1.0.0",
   "description": "catgirl petting cli",
   "preferGlobal": true,
   "bin": {
