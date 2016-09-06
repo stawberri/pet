@@ -1,20 +1,20 @@
 {
-  "name": "petpet",
+  "name": "pet",
   "version": "0.2.7",
   "description": "catgirl petting cli",
   "preferGlobal": true,
   "bin": {
-    "petpet": "bin/petpet"
+    "pet": "bin/pet"
   },
   "scripts": {
-    "test": "node bin/petpet"
+    "test": "node bin/pet"
   },
   "engines": {
     "node": ">=6"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stawberri/petpet.git"
+    "url": "git+https://github.com/stawberri/pet.git"
   },
   "keywords": [
     "petting",
@@ -27,7 +27,7 @@
   "author": "Pudding <aideen@aideen.pw> (https://aideen.pw/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stawberri/petpet/issues"
+    "url": "https://github.com/stawberri/pet/issues"
   },
-  "homepage": "https://github.com/stawberri/petpet#readme"
+  "homepage": "https://github.com/stawberri/pet#readme"
 }

@@ -2,12 +2,12 @@
   "error": {
     "number": 1,
     "name": "ItSeemsThatNodeAccidentallyBlewUpException",
-    "message": "An error happened and petpet doesn't have an error message for it! You probably found a bug. If you're not sure how to fix this, please report this error to %s, along with a description of what you were doing.\n\n%s"
+    "message": "An error happened and pet doesn't have an error message for it! You probably found a bug. If you're not sure how to fix this, please report this error to %s, along with a description of what you were doing.\n\n%s"
   },
   "corrupted-file": {
     "number": 2,
     "name": "SomethingWeirdHappenedToYourGameFileException",
-    "message": "Your petpet game file appears to be corrupted. Please delete %s and try again."
+    "message": "Your pet game file appears to be corrupted. Please delete %s and try again."
   },
   "write-file-error": {
     "number": 3,
@@ -17,31 +17,31 @@
   "update-available": {
     "number": 4,
     "name": "OhLookThereIsANewVersionYouCanPlayException",
-    "message": "You're currently playing petpet version %s, but version %s is available! If you installed petpet and npm normally, you can update by reinstalling petpet with %s. If you don't want to update yet, you can continue playing on this version. This message will reappear once in a while to remind you to update."
+    "message": "You're currently playing pet version %s, but version %s is available! If you installed pet and npm normally, you can update by reinstalling pet with %s. If you don't want to update yet, you can continue playing on this version. This message will reappear once in a while to remind you to update."
   },
   "undefined": {
     "number": 5,
     "name": "ThereWasAnErrorButWeHaveNoIdeaWhatItWasException",
-    "message": "Something caused petpet to run its error handling code, but didn't actually say what was wrong. This is probably a really serious bug! If you're not sure how to fix this yourself, please report this error to %s, with a description of what you were doing.\n\n%s"
+    "message": "Something caused pet to run its error handling code, but didn't actually say what was wrong. This is probably a really serious bug! If you're not sure how to fix this yourself, please report this error to %s, with a description of what you were doing.\n\n%s"
   },
   "old-data-file": {
     "number": 6,
     "name": "YouHaveAnOldDataFileThatCanBeDeletedException",
-    "message": "You have a file at %s. This was petpet's old game data file, but it isn't used anymore. If you weren't the one who created this file, please feel free to remove it! If you created this file yourself for a different purpose, this message shouldn't appear again."
+    "message": "You have a file at %s. This was pet's old game data file, but it isn't used anymore. If you weren't the one who created this file, please feel free to remove it! If you created this file yourself for a different purpose, this message shouldn't appear again."
   },
   "no-output": {
     "number": 7,
     "name": "ThereIsNoOutputToPrintException",
-    "message": "For some reason or another, the petpet command you ran doesn't have any output to show you. This is a bug, but probably isn't anything to worry about. If you would like, you can submit it as a quality-control type of issue."
+    "message": "For some reason or another, the pet command you ran doesn't have any output to show you. This is a bug, but probably isn't anything to worry about. If you would like, you can submit it as a quality-control type of issue."
   },
   "incorrect-command": {
     "number": 8,
     "name": "ThatIsNotASupportedCommandException",
-    "message": "You typed in a command that petpet doesn't support! If you're not sure what to do, you run %s without any arguments to check on the status of your catgirl, or %s for petpet's help screen!"
+    "message": "You typed in a command that pet doesn't support! If you're not sure what to do, you run %s without any arguments to check on the status of your catgirl, or %s for pet's help screen!"
   },
   "invalid-command": {
     "number": 9,
     "name": "YourCommandWasValidButAlsoInvalidException",
-    "message": "The command you ran is a valid command, but petpet encountered an error trying to run it. This is probably a bug! Please feel free to report this error to %s, along with the command you entered."
+    "message": "The command you ran is a valid command, but pet encountered an error trying to run it. This is probably a bug! Please feel free to report this error to %s, along with the command you entered."
   }
 }

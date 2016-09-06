@@ -1,12 +1,12 @@
-# petpet
+# pet
 catgirl petting cli
 
-[![NPM](https://nodei.co/npm/petpet.png?mini=true)](https://nodei.co/npm/petpet/)
+[![NPM](https://nodei.co/npm/pet.png?mini=true)](https://nodei.co/npm/pet/)
 
-Run petpet to pet a catgirl.
+Run pet to pet a catgirl.
 
 ```bash
-$ petpet
+$ pet
 You pet a catgirl.
 ```
 
